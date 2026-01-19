@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.font-website{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 *{
     margin: 0 auto;
     padding: 0px;
@@ -92,7 +100,7 @@ color: #FFFFFF;
 .hero-para-text{
     font-size: 16px;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #a7a2a2;
     margin-top: 8px;
     margin-bottom: 24px;
 }
@@ -137,9 +145,60 @@ color: #FFFFFF;
 }
 .about-heading{
     padding-top: 50px 200px 36px 200px;
-    color:#FFFFFF
+    color:#FFFFFF;
+    font-size:48px;
+    font-weight: bold;
+    margin-bottom: 16px;
 }
-.about-text{
+.about-text p{
     align-items: center;
     justify-content: center;
+    font-size: 16px;
+    color: #a7a2a2;
 }
+
+hr{
+    width: 1200px;
+    height: 0px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    opacity: 0.1;
+}
+.about-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 120px;
+    gap: 60px;
+}
+
+.card img{
+   width: 240px;
+   height: 59px; 
+}
+
+.about-card-para{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    width: 240px;
+    height: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #a7a2a2;
+    opacity: 80%;
+}
+/* .about-card-heading{
+    width: 240px;
+    height: 59px;
+    font-size: 48px;
+    font-weight: black;
+    opacity: 100%;
+    color: #00ff88;
+}
+.about-card-heading img{
+    color: #00ff88;
+} */
