@@ -59,8 +59,9 @@ p{
     cursor: pointer;
     background-image: linear-gradient(rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
 }
-
-
+.banner-btn-new{
+    margin-left: 200px;
+}
 #banner{
     background-image: url(images/assets/hero-bg.png);
     position: 92px 0px;
@@ -408,4 +409,79 @@ hr{
     margin-left: 50px;
     line-height: 24px;
     font-size: 16px;
+}
+
+.meet-the-host{
+    width: 1200px;
+}
+
+.meet-heading{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.meet-link{
+    background-color: #351165;
+    width: 1200px;
+    height: 280px;
+    display: flex;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+.host-img{
+    padding: 40px;
+}
+.meet-text{
+    padding: 49px 40px 40px 0px ;
+}
+.meet-text h5{
+    font-size: 32px;
+    font-weight: bold;
+    width: 896px;
+    height: 39px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.ul-list{
+    display: inline-flex;
+    list-style-type: none;
+    gap: 8px;
+     margin-top: 16px;
+
+}
+.ul-list a{
+    text-decoration: none;
+    border: 1px solid #533C72;
+    border-radius: 50px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;  
+}
+
+footer{
+    background-image: url(images/assets/footer-bg.png);
+}
+.footer-content{
+    padding: 120px 120px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.footer-logo{
+    width: 410px;
+    height: 60px;
+    margin-bottom: 32px;
+}
+
+.footer-img{
+    width: 544px;
+    height: 24px;
+    margin-bottom: 38px;
+
 }
